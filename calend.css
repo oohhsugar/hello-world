@@ -1,6 +1,6 @@
 table {
             font-family:segoe print, sans-serif;
-            font-size:25px;
+            font-size:20px;
             border: solid 5px #800080;
             border-collapse:collapse;
             background:url(rm.jpg) no-repeat;
@@ -17,9 +17,9 @@ table {
  background:#FFFFFF; 
 }
 td, th {
-  padding-top:1%;
-  padding-bottom:1%;
-  width:10%;
+  width:65px;
+  height:65px;
+  text-align:center;
 }
 border{
  color:#000000;
