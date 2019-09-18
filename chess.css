@@ -1,5 +1,5 @@
 table {
-            font:2em Arial, sans-serif;
+            font:2em segoe print, sans-serif;
             font-size:20px;
             }
       .text{
@@ -7,7 +7,7 @@ table {
             }
 body { 
               background:url(fon.jpg)no-repeat; 
-              background-size :cover;
+              background-size:cover;
             }
       
       .white {
@@ -24,12 +24,12 @@ body {
                      border-collapse:collapse; 
                     }
        .chess-board th { 
-                        padding:.5em; 
+                        padding:10px; 
                        }
        .chess-board td { 
                         border:1px solid;
-                        width:5em; 
-                        height:5em; 
+                        width:55px; 
+                        height:55px; 
                         text-align:center; 
                         vertical-align:middle;
                        }
