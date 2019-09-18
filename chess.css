@@ -23,13 +23,8 @@ body {
                      border-spacing:0; 
                      border-collapse:collapse; 
                     }
-       .chess-board th { 
-                        padding:10px; 
-                       }
-       .chess-board td { 
-                        border:1px solid;
-                        width:65px; 
-                        height:65px; 
-                        text-align:center; 
-                        vertical-align:middle;
-                       }
+       .chess-board th, td { 
+                       width:65px;
+                       height:65px;
+                       text-align:center; 
+                    }
