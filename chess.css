@@ -28,8 +28,8 @@ body {
                        }
        .chess-board td { 
                         border:1px solid;
-                        width:55px; 
-                        height:55px; 
+                        width:100px; 
+                        height:100px; 
                         text-align:center; 
                         vertical-align:middle;
                        }
