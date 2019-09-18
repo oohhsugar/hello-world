@@ -17,7 +17,8 @@ table {
 td, th {
  padding-top:1%;
  padding-bottom:1%;
- width:10%;           
+ width:10%;
+ align:=center;          
 }
 border {
  color:#800080;
