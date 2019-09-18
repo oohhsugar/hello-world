@@ -3,6 +3,7 @@ table {
             font-size:20px;
             border:solid 15px #800080;
             border-collapse:collapse;
+            background-position:center;
             background:url(rm.jpg) no-repeat;
         }
  .text {
