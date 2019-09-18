@@ -1,10 +1,7 @@
 .tab {
    text-align:center;
-   margin-left:7%;
-   margin-right:7%;
    background-image:url(rm.png);
-   opacity:0.9;
-   background-position:left center; 
+   background-position:center; 
    background-repeat:no-repeat;  
    background-attachment:fixed;   
    background-size:contain;
