@@ -1,0 +1,8 @@
+body { 
+  .stroke {
+    font: bold 3em Arial, sans-serif;
+    color:#800080;
+    text-shadow: #FFE4E1 1px 1px 0, #4B0082 2px 2px 0, 
+                 #FFE4E1 3px 3px 0, #800080 4px 4px 0, 
+                 #FFE4E1 5px 5px 0;
+  }
