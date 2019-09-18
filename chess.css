@@ -36,16 +36,5 @@ table {
   
            hr {
                border:none; 
-               height: 5px; 
+               height:5px; 
                 }
-.deg1{
--webkit-transform:rotate(180deg);
- border:4px inset #FFE4E1;
- font-size:20px;
- background-color:#A52A2A;
-}
-.bord1{
- border:4px inset #FFE4E1;
- font-size:20px;
- background-color:#A52A2A;
-}
