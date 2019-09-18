@@ -1,25 +1,54 @@
-body {
-   background="fon.jpg";
+table {
+            font: 2em Arial, sans-serif;
+            font-size: 20px;
+            color:#FFE4E1;
+            }
+      .text{
+            text-align:  center;
+            }
+       body { 
+              background: url(fon.jpg)no-repeat; 
+              background-size : cover;
+            }
+      
+      .white {
+            background:#C0C0C0;
+             }
+      .black{
+             background:#000000;
+            }
+       .box { 
+             text-align: center;
+             }
+       .chess-board { 
+                     border-spacing: 0; 
+                     border-collapse: collapse; 
+                    }
+       .chess-board th { 
+                        padding: .5em; 
+                       }
+       .chess-board td { 
+                        border: 1px solid;
+                        width: 5em; 
+                        height: 5em; 
+                        text-align: center; 
+                        vertical-align: middle;
+                       }
+  
+           hr {
+               border: none; 
+               background-color: #4B0082; 
+               color: #4B0082; 
+                height: 5px; 
+                }
+.deg1{
+-webkit-transform: rotate(180deg);
+ border: 4px inset #FFE4E1;
+ font-size: 20px;
+ background-color: #A52A2A;
 }
-.chess-board {
-   margin-left:35%;
-   font-size:130%;
-   text-align: right;
-   background: white;
-}
-
-h1 {
-   text-align: center;
-}
-
-.black{
- background: #000000;
-}
-.white{
- background: #e5e5e5;
-}
-th, td {
- width: 55px;
- height: 55px;
- text-align: right;
+.bord1{
+ border: 4px inset #FFE4E1;
+ font-size: 20px;
+ background-color: #A52A2A;
 }
