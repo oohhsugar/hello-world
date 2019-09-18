@@ -1,7 +1,7 @@
 table {
             font-family:segoe print, sans-serif;
             font-size:20px;
-            border: solid 5px #800080;
+            border:solid 15px #800080;
             border-collapse:collapse;
             background:url(rm.jpg) no-repeat;
         }
@@ -21,6 +21,6 @@ td, th {
   height:65px;
   text-align:center;
 }
-border{
- color:#000000;
+border {
+ color:#800080;
 }  
