@@ -1,0 +1,31 @@
+.tab {
+   text-align:center;
+   margin-left:7%;
+   margin-right:7%;
+   background-image:url(rm.png);
+   opacity:0.9;
+   background-position:left center; 
+   background-repeat:no-repeat;  
+   background-attachment:fixed;   
+   background-size:contain;
+   border:4px double black;
+   border-collapse:collapse;
+   font-size:80%;
+}
+
+.week {
+   background:#FFFFFF;
+}
+
+h1 {
+   text-align:center;
+}
+
+td, th {
+  padding-top:1%;
+  padding-bottom:1%;
+  width: 10%;
+}
+td {
+  font-size:150%;
+}
