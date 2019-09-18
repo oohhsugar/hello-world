@@ -1,7 +1,7 @@
 body {
-   background: #c400ff;
+   background="fon.jpg";
 }
-.tabl {
+.chess-board {
    margin-left:35%;
    font-size:130%;
    text-align: right;
