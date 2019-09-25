@@ -1,5 +1,5 @@
   h2,h1 {
-    font: bold 3em "MountBaker",serif;
+    font: bold 3em "Blazed RUS",serif;
     font-weight:250;
     font-stretch:expanded;
     color:#8B008B;
@@ -13,19 +13,19 @@
     text-align:center;
    }
  .uv{
-     font:bold 4.5em "MountBaker",serif;
+     font:bold 4.5em "Blazed RUS",serif;
     }
  .bn {
         border:5px solid #8B008B;
      }
 
 @font-face {
-    font-family:MountBaker; 
-    src:url(10205.otf); 
+    font-family:Blazed RUS; 
+    src:url(17688.otf); 
    }
 @font-face {
-    font-family:MountBaker; 
-    src:url(10205.otf); 
+    font-family:Blazed RUS; 
+    src:url(17688.otf); 
 }
 .DivBackground {
 	background-color:rgba(100%,100%,100%,0.5);
