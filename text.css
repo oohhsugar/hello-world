@@ -1,27 +1,43 @@
- h2,h1 {
-    font:bold 3em "Streamster",serif;
+  h2,h1 {
+    font: bold 3em "Martyricpersonal",serif;
     font-weight:250;
-    font-stretch:expanded;
-    color:#800080;
-    text-shadow: 2px 0 2px #4B0082, 
-                 0 2px 2px #4B0082, 
-                 -2px 0 2px #4B0082, 
-                 0 -2px 2px #4B0082,
-                 2px 2px 2px #4B0082;
+    font-stretch: expanded;
+    color: #F0E68C;
+    text-shadow: 2px 0 2px #8B4513, 
+                 0 2px 2px #8B4513, 
+                 -2px 0 2px #8B4513, 
+                 0 -2px 2px #8B4513,
+                 2px 2px 2px #8B4513;
   }
  .text {
-    text-align:center;
+    text-align:  center;
    }
  .uv{
-     font: bold 4.5em "Streamster",serif;
+     font: bold 4.5em "Martyricpersonal",serif;
+    }
+ .bn {
+        border: 5px solid #184DDE;
+     }
+ #navigation{
+   
+    
+        background-color: rgba(0,0,0, 0);
+        height: 130px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        font-size: 16px;
+        line-height: 10px;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        
     }
 @font-face {
-    font-family:Streamster; 
-    src: url(16881.otf); 
+    font-family: Martyricpersonal; 
+    src: url(fonts/10908.otf); 
    }
 @font-face {
-    font-family:Streamster; 
-    src: url(16881.otf); 
+    font-family:BatmanForever; 
+    src: url(fonts/10322.ttf); 
 }
 .DivBackground {
 	background-color: rgba(100%,100%,100%,0.2);
@@ -30,3 +46,4 @@
 	margin-left: 2%;
 	margin-right: 2%;
 	border-radius: 5px;
+}
