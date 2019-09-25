@@ -18,19 +18,7 @@
  .bn {
         border: 5px solid #184DDE;
      }
- #navigation{
-   
-    
-        background-color: rgba(0,0,0, 0);
-        height: 130px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-        font-size: 16px;
-        line-height: 10px;
-        position: relative;
-        top: 0%;
-        width: 100%;
-        
-    }
+
 @font-face {
     font-family: Martyricpersonal; 
     src: url(fonts/10908.otf); 
