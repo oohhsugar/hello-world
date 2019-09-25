@@ -1,0 +1,17 @@
+ h2,h1 {
+    font:bold 3em "Streamster",serif;
+    font-weight:400;
+    font-stretch: expanded;
+    color:#F0E68C;
+    text-shadow: 2px 0 2px #8B4513, 
+                 0 2px 2px #8B4513, 
+                 -2px 0 2px #8B4513, 
+                 0 -2px 2px #8B4513,
+                 2px 2px 2px #8B4513;
+  }
+ .text {
+    text-align:center;
+   }
+ .uv{
+     font: bold 4.5em "Streamster",serif;
+    }
