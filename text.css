@@ -1,5 +1,5 @@
   h2,h1 {
-    font: bold 3em "Streamster",serif;
+    font: bold 3em "MountBaker",serif;
     font-weight:250;
     font-stretch:expanded;
     color:#8B008B;
@@ -13,19 +13,19 @@
     text-align:center;
    }
  .uv{
-     font:bold 4.5em "Streamster",serif;
+     font:bold 4.5em "MountBaker",serif;
     }
  .bn {
         border:5px solid #8B008B;
      }
 
 @font-face {
-    font-family:Streamster; 
-    src:url(16881.otf); 
+    font-family:MountBaker; 
+    src:url(10205.otf); 
    }
 @font-face {
-    font-family:Streamster; 
-    src:url(16881.otf); 
+    font-family:MountBaker; 
+    src:url(10205.otf); 
 }
 .DivBackground {
 	background-color:rgba(100%,100%,100%,0.5);
