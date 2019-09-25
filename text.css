@@ -2,12 +2,12 @@
     font: bold 3em "Streamster",serif;
     font-weight:250;
     font-stretch: expanded;
-    color: #F0E68C;
-    text-shadow: 2px 0 2px #8B4513, 
-                 0 2px 2px #8B4513, 
-                 -2px 0 2px #8B4513, 
-                 0 -2px 2px #8B4513,
-                 2px 2px 2px #8B4513;
+    color: #8B008B;
+    text-shadow: 2px 0 2px #4B0082, 
+                 0 2px 2px #4B0082, 
+                 -2px 0 2px #4B0082, 
+                 0 -2px 2px #4B0082,
+                 2px 2px 2px #4B0082;
   }
  .text {
     text-align:  center;
@@ -29,7 +29,7 @@
 }
 .DivBackground {
 	background-color: rgba(100%,100%,100%,0.2);
-	border: 1px solid #184DDE;
+	border: 1px solid #8B008B;
 	padding: 10px;
 	margin-left: 2%;
 	margin-right: 2%;
