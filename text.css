@@ -1,7 +1,7 @@
  h2,h1 {
-    font:bold 3em "Streamster",serif;
+    font:bold 3em "Blazed RUS",serif;
     font-weight:250;
-    font-stretch: expanded;
+    font-stretch:expanded;
     color:#800080;
     text-shadow: 2px 0 2px #8B4513, 
                  0 2px 2px #8B4513, 
@@ -13,5 +13,5 @@
     text-align:center;
    }
  .uv{
-     font: bold 4.5em "Streamster",serif;
+     font: bold 4.5em "Blazed RUS",serif;
     }
