@@ -1,5 +1,5 @@
   h2,h1 {
-    font: bold 3em "lazer84 [RUS by Daymarius]",serif;
+    font: bold 3em "Road Rage(RUS BY LYAJKA)",serif;
     font-weight:250;
     font-stretch:expanded;
     color:#8B008B;
@@ -13,19 +13,19 @@
     text-align:center;
    }
  .uv{
-     font:bold 4.5em "lazer84 [RUS by Daymarius]",serif;
+     font:bold 4.5em "Road Rage(RUS BY LYAJKA)",serif;
     }
  .bn {
         border:5px solid #8B008B;
      }
 
 @font-face {
-    font-family:lazer84 [RUS by Daymarius]; 
-    src:url(12236.ttf); 
+    font-family:Road Rage(RUS BY LYAJKA); 
+    src:url(13891.ttf); 
    }
 @font-face {
-    font-family:lazer84 [RUS by Daymarius]; 
-    src:url(12236.ttf); 
+    font-family:Road Rage(RUS BY LYAJKA); 
+    src:url(13891.ttf); 
 }
 .DivBackground {
 	background-color:rgba(100%,100%,100%,0.5);
