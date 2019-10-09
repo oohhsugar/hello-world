@@ -6,7 +6,7 @@
     font-size:40px;
     color:#aae7f0;
     height:200px;
-    text-align:right;
+    text-align:left;
     padding-right:100px;
     padding-top:50px;
 }
@@ -31,13 +31,13 @@
     font-size:60px;
     color:#fe83ae;
     height:200px;
-    text-align:left;
+    text-align:right;
     padding-left:100px;
     padding-top:50px;
 }
 .ab1:hover
 {
-    background-color:#574992;
+    background-color:#82a6cc;
 }
 .ab2:hover
 {
@@ -45,5 +45,5 @@
 }
 .ab3:hover
 {
-    background-color:#82a6cc;
+    background-color:#574992;
 }
