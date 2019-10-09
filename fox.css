@@ -7,8 +7,12 @@ body {
 }
 
 .fig {
-  text-align: center; 
+  text-align: center;
 }
+
+.art {
+  border: 5px solid #7B68EE;
+ }
 
 .spisok {
  font: italic 30px "Arial",serif;
