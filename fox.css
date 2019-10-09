@@ -7,9 +7,9 @@ body {
 } 
 
 .center-img {
-  display: block;
-  margin: 0 auto;
+ text-align: center;
 }
+
 .foxx {
  width:1024px;
  height:704px;
