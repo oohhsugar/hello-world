@@ -1,21 +1,21 @@
 .ab1
 {
-    background-color:#F08080;
+    background-color:#ff8379;
     font-family:cursive;
     font-style:italic;
     font-size:60px;
-    color:#FFC0CB;
+    color:#ffcea5;
     height:200px;
     padding-left:100px;
     padding-top:50px;
 }
 .ab2
 {
-    background-color:#8A2BE2;
+    background-color:#e087a5;
     font-family:serif;
     font-style:normal;
     font-size:40px;
-    color:#9932CC;
+    color:#ffcac5;
     height:200px;
     padding-left:600px;
     padding-top:50px;
@@ -34,11 +34,11 @@
 }
 .ab1:hover
 {
-    background-color:#DC143C;
+    background-color:#ea485c;
 }
 .ab2:hover
 {
-    background-color:#9400D3;
+    background-color:#65588a;
 }
 .ab3:hover
 {
