@@ -1,13 +1,13 @@
 body {
-  background-image: url(fon.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image:url(fon.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
 }
 
 
-.kar {
+.foxx {
  width:1002px;
  height:668px;
  margin-left: 200px;
