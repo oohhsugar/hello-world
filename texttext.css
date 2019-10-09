@@ -1,15 +1,16 @@
 .ab1
 {
-    background-color:#9f559f;
-    font-family:matura mt script capitals;
-    font-style:italic;
+    background-color:#b9dbe6;
+    font-family:fantasy;
+    font-style:oblique;
     font-size:40px;
-    color:#fe83ae;
+    color:#aae7f0;
     height:200px;
-    text-align:left;
-    padding-left:100px;
+    text-align:right;
+    padding-right:100px;
     padding-top:50px;
 }
+
 .ab2
 {
     background-color:#927fbf;
@@ -22,16 +23,16 @@
     padding-left:100px;
     padding-top:50px;
 }
-.ab3
+.ab3 
 {
-    background-color:#3667a6;
-    font-family:fantasy;
-    font-style:oblique;
+    background-color:#9f559f;
+    font-family:matura mt script capitals;
+    font-style:italic;
     font-size:60px;
-    color:#aae7f0;
+    color:#fe83ae;
     height:200px;
-    text-align:right;
-    padding-right:100px;
+    text-align:left;
+    padding-left:100px;
     padding-top:50px;
 }
 .ab1:hover
