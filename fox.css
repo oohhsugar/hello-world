@@ -14,6 +14,7 @@ body {
 
 .spisok {
  font: italic 30px "Arial",serif;
+ font-size:30px;
  border: 5px solid #8B008B;
  padding-top:100px;
  padding-bottom:100px;
@@ -23,6 +24,7 @@ body {
 .spisok2 {
  font: italic 30px "Arial",serif;
  border: 5px solid #FFFFFF;
+ font-size:30px;
  padding-top:100px;
  padding-bottom:100px;
  background-color:#8B008B;
