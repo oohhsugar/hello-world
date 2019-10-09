@@ -1,24 +1,28 @@
 table {
-            font-family:segoe print, sans-serif;
-            font-size:20px;
-            background:url(rm.jpg) no-repeat;
-        }
- .text {
-       text-align:center;
-       }
+ font-family:segoe print, sans-serif;
+ font-size:20px;
+ background:url(rm.jpg) no-repeat;
+}
+
+.text {
+ text-align:center;
+}
+
  body { 
-      background:url(fon.jpg)no-repeat; 
-      background-size:cover;
-      }
+ background:url(fon.jpg)no-repeat; 
+ background-size:cover;
+}
 
 .week {
  background:#FFFFFF; 
 }
+
 td, th {
  padding-top:1%;
  padding-bottom:1%;
  width:10%;          
 }
+
 border {
  color:#800080;
 }  
