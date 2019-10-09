@@ -8,30 +8,34 @@
                 -2px 0 2px #4B0082, 
                 0 -2px 2px #4B0082,
                 2px 2px 2px #4B0082;
-  }
+}
  .text {
-    text-align:center;
-   }
+   text-align:center;
+}
+
  .uv{
-     font:bold 4.5em "Hisqaida 2018",serif;
-    }
+   font:bold 4.5em "Hisqaida 2018",serif;
+}
+
  .bn {
-        border:5px solid #8B008B;
-     }
+   border:5px solid #8B008B;
+}
 
 @font-face {
-    font-family:Hisqaida 2018; 
-    src:url(17796.ttf); 
-   }
-@font-face {
-    font-family:Hisqaida 2018; 
-    src:url(17796.ttf); 
+   font-family:Hisqaida 2018; 
+   src:url(17796.ttf); 
 }
+
+@font-face {
+   font-family:Hisqaida 2018; 
+   src:url(17796.ttf); 
+}
+
 .DivBackground {
-	background-color:rgba(100%,100%,100%,0.5);
-	border:5px solid #8B008B;
-	padding:10px;
-	margin-left:2%;
-	margin-right:2%;
-	border-radius:5px;
+   background-color:rgba(100%,100%,100%,0.5);
+   border:5px solid #8B008B;
+   padding:10px;
+   margin-left:2%;
+   margin-right:2%;
+   border-radius:5px;
 }
