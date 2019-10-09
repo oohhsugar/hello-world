@@ -6,10 +6,13 @@ body {
   background-size:cover;
 } 
 
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
 .foxx {
  width:1024px;
  height:704px;
- margin-left:200px;
 }
 
 .spisok {
