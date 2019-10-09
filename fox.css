@@ -4,13 +4,14 @@ body {
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:cover;
-} 
+}
 
+.fig {
+    text-align: center; 
 
 .foxx {
  width:1024px;
  height:704px;
- text-align: center;
 }
 
 .spisok {
@@ -23,7 +24,11 @@ body {
  padding-bottom:100px;
  background-color:#FF4500;
 }
-
+  
+.transparent50 {
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+   }
 .gr {
  margin-left:70px;
  margin-right:70px;
