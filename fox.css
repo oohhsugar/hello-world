@@ -6,10 +6,8 @@ body {
   background-size:cover;
 }
 
-.foxx {
- display:block;
- margin:auto;
- border: 5px solid #8B008B;
+.fig {
+  text-align: center; 
 }
 
 .spisok {
