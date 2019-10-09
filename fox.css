@@ -17,16 +17,10 @@ body {
 
 .spisok {
  font:italic 30px "Arial",serif;
+ text-align:center;
  padding-top:100px;
  padding-bottom:100px;
 }
-
-.spisok2 {
- font:italic 30px "Arial",serif;
- padding-top:100px;
- padding-bottom:100px;
-}
-
 
 .DivBackground {
  background-color:rgba(100%,100%,100%,0.5);
