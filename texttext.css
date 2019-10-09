@@ -6,6 +6,7 @@
     font-size:40px;
     color:#fff4e0;
     height:200px;
+    text-align:left;
     padding-left:100px;
     padding-top:50px;
 }
@@ -17,7 +18,8 @@
     font-size:50px;
     color:#fa5d71;
     height:200px;
-    padding-left:600px;
+    text-align:center;
+    padding-left:100px;
     padding-top:50px;
 }
 .ab3
@@ -29,7 +31,7 @@
     color:#FFC0CB;
     height:200px;
     text-align:right;
-    padding-right:300px;
+    padding-right:100px;
     padding-top:50px;
 }
 .ab1:hover
