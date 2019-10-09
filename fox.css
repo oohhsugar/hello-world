@@ -4,8 +4,11 @@ body {
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:cover;
-}
+} 
 
+style {
+img {width:65px; height:65px;
+}
 
 .foxx {
  width:1002px;
