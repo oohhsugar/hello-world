@@ -35,7 +35,7 @@ body {
 .DivBackground {
 	background-color:rgba(100%,100%,100%,0.5);
 	border:5px solid #8B008B;
-	padding:10px;
-	margin-left:2%;
-	margin-right:2%;
+	padding:0px;
+	margin-left:10%;
+	margin-right:10%;
 	border-radius:5px;
