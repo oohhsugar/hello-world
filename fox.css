@@ -12,30 +12,19 @@ body {
  border: 5px solid #8B008B;
 }
 
-.gr {
- margin-left:70px;
- margin-right:70px;
-}
-
-.zagol {
- font-size:25px;
-}
-
-.transparent50 {
- opacity: 0.5;
-}
-
 .spisok {
+ font: italic 30px "Arial",serif;
+ border: 5px solid #8B008B;
  padding-top:100px;
  padding-bottom:100px;
  background-color:#FFFFFF;
- border: 5px solid #8B008B;
 
 }
 .spisok2 {
+ font: italic 30px "Arial",serif;
+ border: 5px solid #8B008B;
  padding-top:100px;
  padding-bottom:100px;
  background-color:#8B008B;
- border: 5px solid #FFFFFF;
 }
 
