@@ -1,0 +1,46 @@
+.ab1
+{
+    background-color:#f04646;
+    font-family:cursive;
+    font-style:italic;
+    font-size:60px;
+    color:#467ef0;
+    height:200px;
+    padding-left:100px;
+    padding-top:50px;
+}
+.ab2
+{
+    background-color:#46f0e4;
+    font-family:serif;
+    font-style:normal;
+    font-size:40px;
+    color:#9b46f0;
+    height:200px;
+    padding-left:600px;
+    padding-top:50px;
+}
+.ab3
+{
+    background-color:#ae46f0;
+    font-family:fantasy;
+    font-style:oblique;
+    font-size:50px;
+    color:#1bfadb;
+    height:200px;
+    text-align:right;
+    padding-right:300px;
+    padding-top:50px;
+}
+.ab1:hover
+{
+    background-color:#f0ea46;
+}
+.ab2:hover
+{
+    background-color:#73f046;
+}
+.ab3:hover
+{
+    background-color:#f0a046;
+}
