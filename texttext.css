@@ -37,16 +37,18 @@
 }
 .ab1:hover
 {
-    color:blue;
+    color:white;
     background-color:black;
        
 }
 .ab2:hover
 {
+    color:black;
     background-color:red;
 }
 .ab3:hover
 {
+    color:red;
     background-color:white;
 }
 
