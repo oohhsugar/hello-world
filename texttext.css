@@ -38,6 +38,15 @@
 .ab1:hover
 {
     background-color:#82a6cc;
+    font-family:serif;
+    font-style:italic;
+    font-size:60px;
+    color:#fe83ae;
+    height:200px;
+    text-align:right;
+    padding-left:100px;
+    padding-top:50px;
+    
 }
 .ab2:hover
 {
