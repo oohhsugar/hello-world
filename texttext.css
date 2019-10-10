@@ -37,7 +37,6 @@
 }
 .ab1:hover
 {
-    color:#ffe
     background-color:#82a6cc;
        
 }
@@ -47,5 +46,6 @@
 }
 .ab3:hover
 {
+    color:red
     background-color:#800080;
 }
