@@ -47,6 +47,14 @@
 }
 .ab3:hover
 {
-    background-color:#800080;
+    background-color:#b9dbe6;
+    font-family:matura mt script capitals;
+    font-style:oblique;
+    font-size:40px;
+    color:#aae7f0;
+    height:200px;
+    text-align:left;
+    padding-right:100px;
+    padding-top:50px;
 }
 
