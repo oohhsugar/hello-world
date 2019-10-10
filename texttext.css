@@ -46,6 +46,9 @@
 }
 .ab3:hover
 {
-    color:red
     background-color:#800080;
+}
+p:hover
+{
+    color:red
 }
