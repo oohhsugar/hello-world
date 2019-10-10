@@ -1,10 +1,10 @@
 .ab1
 {
-    background-color:#b9dbe6;
+    background-color:white;
     font-family:matura mt script capitals;
     font-style:oblique;
     font-size:40px;
-    color:#aae7f0;
+    color:red;
     height:200px;
     text-align:left;
     padding-right:100px;
@@ -13,11 +13,11 @@
 
 .ab2
 {
-    background-color:#927fbf;
+    background-color:black;
     font-family:brush script mt;
     font-style:normal;
     font-size:50px;
-    color:#c4bbf0;
+    color:white;
     height:200px;
     text-align:center;
     padding-left:100px;
@@ -25,11 +25,11 @@
 }
 .ab3 
 {
-    background-color:#9f559f;
+    background-color:red;
     font-family:serif;
     font-style:italic;
     font-size:60px;
-    color:#fe83ae;
+    color:black;
     height:200px;
     text-align:right;
     padding-left:100px;
@@ -38,15 +38,15 @@
 .ab1:hover
 {
     color:blue;
-    background-color:#82a6cc;
+    background-color:black;
        
 }
 .ab2:hover
 {
-    background-color:#4f3a77;
+    background-color:red;
 }
 .ab3:hover
 {
-    background-color:#800080;
+    background-color:white;
 }
 
