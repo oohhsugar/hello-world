@@ -14,8 +14,8 @@ p.size
     text-align: center;
 }
 .page_style {
-    background-color: #eed774;
-    border: 5px #100977 solid;
+    background-color:#FFFFFF;
+    border: 5px ##800080 solid;
     text-align: center;
     margin: auto
     width: 30%;
@@ -26,29 +26,7 @@ p.size
 .pageBox:target {
     display: block;
 }
-.calend_style
-{
-    background-color:#FFFFFF;
-    border: 5px #800080 solid;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin: auto;
-}
-.calendBox
-{
-    display: none;
-}
-.calendBox:target
-{
-    display: block;
-}
-.page1Box {
-    display: none;
-}
-.page1Box:target {
-    display: block;
-}
+
 .page1_style {
     background-color: #eed774;
     border: 5px #100977 solid;
