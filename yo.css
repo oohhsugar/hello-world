@@ -7,6 +7,40 @@ body{
     font-size: 50px;
     text-align: center;
 }
+.pageBox {
+    display: none;
+}
+.pageBox:target {
+    display: block;
+}
+.calend_style
+{
+    background-color: #eed774;
+    border: 5px #772f12 solid;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin: auto;
+}
+.calendBox
+{
+    display: none;
+}
+.calendBox:target
+{
+    display: block;
+}
+.page1Box {
+    display: none;
+}
+.page1Box:target {
+    display: block;
+}
+.page1_style {
+    background-color: #eed774;
+    border: 5px #100977 solid;
+    margin-left: 70%;
+}
 
 @font-face {
    font-family: Game of Thrones KG; 
