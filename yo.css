@@ -1,0 +1,100 @@
+body{
+    body background="fon.jpg";
+}
+td, th{
+    border: 2px groove lightseagreen;
+    text-align: center;
+    width: 50px;
+    font-size: 50px;
+    border-spacing: 0;
+}
+tr:nth-child(even) {
+    background-color: Black;
+    color: White;
+}
+tr:nth-child(odd) {
+    background-color: White;
+    color: Black;
+}
+tr:nth-child(1) {
+    background-color: #0e1466;
+    color: #f5ff09;
+}
+th:nth-child(1){
+    background-color: #0e1466;
+    color: #f5ff09;
+}
+img{
+    width: 400px;
+    height: 800px;
+    margin-left: 10%;
+}
+.p1
+{
+    font-size: 50px;
+    margin-left: 8%;
+    float: left;
+}
+.p2
+{
+    font-size: 50px;
+    float: left;
+    margin-left: 20%;
+}
+.p3
+{
+    font-size: 50px;
+    float: left;
+    margin-left: 20%;
+}
+p.size
+{
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    text-align: center;
+}
+p:first-letter
+{
+    font-family: Impact;
+    font-size: 100px;
+    color: navy;
+}
+.page_style {
+    background-color: #eed774;
+    border: 5px #100977 solid;
+    width: 30%;
+}
+.pageBox {
+    display: none;
+}
+.pageBox:target {
+    display: block;
+}
+.calend_style
+{
+    background-color: #eed774;
+    border: 5px #772f12 solid;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin: auto;
+}
+.calendBox
+{
+    display: none;
+}
+.calendBox:target
+{
+    display: block;
+}
+.page1Box {
+    display: none;
+}
+.page1Box:target {
+    display: block;
+}
+.page1_style {
+    background-color: #eed774;
+    border: 5px #100977 solid;
+    margin-left: 70%;
+}
