@@ -16,6 +16,7 @@ p.size
 .page_style {
     background-color: #eed774;
     border: 5px #100977 solid;
+    text-align: center;
     width: 30%;
 }
 .pageBox {
