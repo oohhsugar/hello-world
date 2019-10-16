@@ -1,5 +1,5 @@
 body{
-    body background="fon.jpg";
+  background-image:url(fon.jpg);
 }
 td, th{
     border: 2px groove lightseagreen;
