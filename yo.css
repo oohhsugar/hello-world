@@ -17,6 +17,7 @@ p.size
     background-color: #eed774;
     border: 5px #100977 solid;
     text-align: center;
+    margin: auto
     width: 30%;
 }
 .pageBox {
