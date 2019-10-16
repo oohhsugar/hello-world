@@ -1,4 +1,12 @@
-  h2,h1 {
+body { 
+       background: url(C1ark.jpg);
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+    
+  
+h2,h1 {
     font: bold 3em "Game of Thrones KG",serif;
     font-weight:250;
     font-stretch:expanded;
@@ -9,12 +17,13 @@
                 0 -2px 2px #4B0082,
                 2px 2px 2px #4B0082;
 }
+
  .text {
-   text-align:center;
+  text-align:center;
 }
 
  .uv {
-   font:bold 4.5em "Hisqaida 2018",serif;
+   font:bold 4.5em "Game of Thrones KG",serif;
 }
 
  .bn {
