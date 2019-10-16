@@ -1,29 +1,7 @@
 body{
   background-image:url(fon.jpg);
 }
-td, th{
-    border: 2px groove lightseagreen;
-    text-align: center;
-    width: 50px;
-    font-size: 50px;
-    border-spacing: 0;
-}
-tr:nth-child(even) {
-    background-color: Black;
-    color: White;
-}
-tr:nth-child(odd) {
-    background-color: White;
-    color: Black;
-}
-tr:nth-child(1) {
-    background-color: #0e1466;
-    color: #f5ff09;
-}
-th:nth-child(1){
-    background-color: #0e1466;
-    color: #f5ff09;
-}
+
 img{
     width: 400px;
     height: 800px;
