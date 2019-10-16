@@ -18,7 +18,6 @@ p.size
     border: 5px #800080 solid;
     text-align: center;
     margin: auto
-    width: 30%;
 }
 .pageBox {
     display: none;
