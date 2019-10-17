@@ -31,7 +31,9 @@ p.size
     border: 5px #100977 solid;
     margin-left: 70%;
 }
-
+.tt{
+  margin-top: 90%
+}
 @font-face {
    font-family: Game of Thrones KG; 
    src:url(9327.ttf); 
