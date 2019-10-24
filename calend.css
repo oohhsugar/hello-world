@@ -4,6 +4,11 @@ table {
  background:url(rm.jpg) no-repeat;
 }
 
+@font-face {
+   font-family: Game of Thrones KG; 
+   src:url(9327.ttf);
+}
+
 .text {
  text-align:center;
 }
