@@ -6,7 +6,7 @@ table {
             text-align:center;
             }
 body { 
-              background:url(fon.jpg)no-repeat; 
+              background:url(C1ark.jpg)no-repeat; 
               background-size:cover;
             }
       
@@ -28,3 +28,7 @@ body {
                        height:65px;
                        text-align:center; 
                     }
+@font-face {
+   font-family: Game of Thrones KG; 
+   src:url(9327.ttf); 
+}
