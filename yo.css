@@ -5,6 +5,7 @@ body{
 
 .p1
 {
+    font-family:Game of Thrones KG;
     font-size: 50px;
     text-align: center;
 }
@@ -38,3 +39,4 @@ p.size
 @font-face {
    font-family: Game of Thrones KG; 
    src:url(9327.ttf); 
+}
