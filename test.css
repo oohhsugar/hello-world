@@ -16,7 +16,7 @@ body {
 }
 .back {
     border: 2px solid Black;
-    font: italic 30px "Arial", serif;
+    font: italic 30px "Game of Thrones KG", serif;
     background-color: rgba(255, 255, 255, 0.7);
     margin-left: 20%;
     margin-right: 20%;
@@ -77,4 +77,9 @@ input[type="text"]{
     background-color: #fafad2;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+@font-face {
+   font-family: Game of Thrones KG; 
+   src:url(9327.ttf); 
 }
