@@ -72,9 +72,9 @@ input[type="text"]{
 .container {
     text-align: center;
     font-size: 50px;
-    color: MediumBlue;
+    color: Black;
     border: 2px solid Black;
-    background-color: #fafad2;
+    background-color: #FFFFFF;
     margin-left: 20%;
     margin-right: 20%;
 }
