@@ -86,7 +86,7 @@ input[type="button"]{
 
 .closebtn {
     text-decoration:none;
-    height: 100%;
+    margin:0 auto;
     font-size:50px;
     font-weight:bold;
     color:#800080;
