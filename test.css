@@ -2,6 +2,7 @@ h1,h2 {
     font: bold 3em "Game of Thrones KG",serif;
     font-weight:250;
     font-stretch:expanded;
+    font-size:100px;
     color:#8B008B;
     text-align:center;
 
@@ -31,7 +32,7 @@ ol li{
 }
 ol li::before{
     counter-increment: myCounter;
-    content: "Вопрос:" counters(myCounter, ".");
+    content: "Вопрос: " counters(myCounter, ".");
 }
 .back {
     border: 2px solid Black;
