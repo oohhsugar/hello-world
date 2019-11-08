@@ -61,6 +61,8 @@ input[type="button"]{
     width: 400px;
     height: 60px;
     font-size: 30px;
+    text-align:center;
+
 }
 .modal {
     display: none;
