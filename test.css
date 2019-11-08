@@ -61,7 +61,6 @@ input[type="button"]{
     width:400px;
     height:60px;
     font-size:30px;
-    text-align:center;
 
 }
 .modal {
@@ -86,10 +85,10 @@ input[type="button"]{
 
 .closebtn {
     text-decoration:none;
-    text-align:center;
     font-size:50px;
     font-weight:bold;
     color:#800080;
+    left: 50%
 }
 
 .container {
