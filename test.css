@@ -86,7 +86,7 @@ input[type="button"]{
 
 .closebtn {
     text-decoration:none;
-    float:right;
+    margin-top:100%;
     font-size:50px;
     font-weight:bold;
     color:Red;
@@ -96,7 +96,7 @@ input[type="button"]{
     text-align:center;
     font-size:50px;
     color:Black;
-    border:2px solid #800080;
+    border:5px solid #800080;
     background-color: White;
     margin-left:20%;
     margin-right:20%;
