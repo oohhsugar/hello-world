@@ -3,11 +3,8 @@ h1,h2 {
     font-weight:250;
     font-stretch:expanded;
     color:#8B008B;
-    text-shadow:2px 0 2px #4B0082, 
-                0 2px 2px #4B0082, 
-                -2px 0 2px #4B0082, 
-                0 -2px 2px #4B0082,
-                2px 2px 2px #4B0082;
+    text-align:center;
+
 }
 
 form {
