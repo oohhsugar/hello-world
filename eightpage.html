@@ -11,7 +11,40 @@
 <script>
 function proverka()
 {
-const a =[{value: "Coleoptera"}, {value: "Драконов"}, {value: "Cockroach"}, {value: "The Beetles"}, {value: "Roisterer"}];
+let array_of_correct_answers = ['На драконе', 'Драконов', 'Призрак', 'Дети леса', 'Василиски', '1996', 'Дрогон', 'Рейгаль', 'Визерион', 'Балерион', 'Эйгон Таргариен', 'Да конечно'];
+        let numner_questions = 10;
+        let a = [];
+        function proverka(j = 0) {
+            let elements = document.getElementsByName(j);
+            for (let i = 0, len = elements.length; i < len; ++i) {
+                if(elements[i].type=="text")
+                    a.push(elements[i].value);
+                if (elements[i].checked)
+                    a.push(elements[i].value);
+            }
+            j++;
+            if (j < numner_questions)
+                proverka(j);
+            return a;
+        }
+        function cout() {
+            let n = 0;
+            let p = proverka();
+             if (p.length < numner_questions) {
+              alert("Ответьте на все вопросы")
+             }
+             else {
+            for (let i = 0; i < numner_questions; i++) {
+                if (p[i] == array_of_correct_answers[i]) {
+                    n++;
+                }
+            }
+            document.getElementById('id01').style.display = 'block'
+            document.getElementById("sss").innerHTML = "Првильных ответов: " + n;
+             }
+        }
+    </script>
+</head>
 }
 </script>
 </head>
@@ -102,17 +135,15 @@ const a =[{value: "Coleoptera"}, {value: "Драконов"}, {value: "Cockroach
 <br></br>
 <form id="a10">
         <input type="radio" name="Beetle" value="Ground beetle" />Да<br/>
-        <input type="radio" name="Beetle" value="Tree eater" />Да конечно<br/>  
- <input
-         type="submit"
-         value="Посмотреть результат"
-         onclick="document.getElementById('id01').style.display = 'block'"/>
-</div>
-<div id="id01" class="modal">
-    <a href="" class="closebtn">×</a>
+        <input type="radio" name="Beetle" value="Tree eater" />Да конечно<br/>
+<br></br>
+<input type="button" value="Посмотреть результат" onclick="cout()">
+    <a  href="Вопросы.pdf"><h1>Тут файл с вопросами и ответами</h1></a>
+ </div>
+    <div id="id01" class="modal">
+    <a href="" class="closebtn">Закрыть</a>
     <div class="container">
-    <h2>Результат</h2>
-    <p>...</p>
+    <p id="sss"></p>
 </div>
 </div>
 </body>
