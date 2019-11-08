@@ -14,6 +14,7 @@
   position: relative;
   overflow: visible;
   border: 9px solid transparent;
+  border-image: url(images/shadow.png) 9 9 repeat;
   background-clip: content-box;
   
   background-color: white;
