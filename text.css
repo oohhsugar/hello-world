@@ -28,11 +28,6 @@ body{ background-size: cover;
    src:url(9327.ttf); 
 }
 
-@font-face {
-   font-family: Game of Thrones KG; 
-   src:url(9327.ttf); 
-}
-
 .DivBackground {
    background-color:rgba(100%,100%,100%,0.5);
    border:5px solid #8B008B;
