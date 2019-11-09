@@ -32,7 +32,7 @@ ol li{
 }
 ol li::before{
     counter-increment: myCounter;
-    content:" " counters(myCounter, ".");
+    content:"Вопрос №" counters(myCounter, ".");
 }
 .back {
     border:5px solid #800080;
