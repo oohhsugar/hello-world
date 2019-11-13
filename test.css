@@ -83,7 +83,7 @@ input[type="button"]{
     vertical-align:middle;
 }
 
-.btn
+.btn {
     text-align:center;
     color:Black;
     border:5px solid #800080;
