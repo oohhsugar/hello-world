@@ -89,7 +89,7 @@ input[type="button"]{
     color:Black;
     border:5px solid #800080;
     background-color: White;
-    margin-top:1%;
+    margin-top:auto;
 }
 
 .container {
@@ -99,7 +99,7 @@ input[type="button"]{
     border:5px solid #800080;
     background-color: White;
     margin-left:20%;
-    margin-right:30%;
+    margin-right:20%;
 }
 
 @font-face {
