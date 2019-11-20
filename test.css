@@ -84,7 +84,6 @@ input[type="button"]{
 }
 
 .btn {
-    text-align:center;
     font:italic 30px "Arial", serif;
     color:Black;
     border:5px solid #800080;
