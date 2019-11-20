@@ -8,147 +8,141 @@
 <link rel="shortcut icon" href="favicon.png" type="image/png">
 <link rel="stylesheet" type="text/css" href="test.css"/>
 <script>
-let array_of_correct_answers = ['B', 'Драконов', 'G', 'J', 'N', 'Q', 'U', 'W', 'Y', '3', '6', '8'];
-        let numner_questions = 10;
-        let a = [];
-        function proverka(j = 0) {
-        let elements = document.getElementsByName(j);
-        for (let i = 0, len = elements.length; i < len; ++i) {
-        if(elements[i].type=="text")
-             a.push(elements[i].value);
-        if (elements[i].checked)
-             a.push(elements[i].value);
-        }
-        j++;
-        if (j < numner_questions)
-             proverka(j);
-        return a;
-        }
-        function cout() {
-        let n = 0;
-        let p = proverka();
-        if (p.length < numner_questions) {
-            alert("Ответьте на все вопросы")
-         }
-         else {
-         for (let i = 0; i < numner_questions; i++) {
-         if (p[i] == array_of_correct_answers[i]) {
-             n++;
-         }
-         }
-         document.getElementById('id01').style.display = 'block'        
-         document.getElementById("result").innerHTML = "Правильных ответов: " + n;
-         }
-        }
+function CheckForm(FormID) {
+        var MyForm = document.getElementById(FormID);
+        var text = "";
+        var i;
+        for (i = 0; i < MyForm.length; i++) {
+            if (MyForm.elements[i].type=="text")
+            {
+            return MyForm.elements[i].value;
+            }
+            else {
+            if (MyForm.elements[i].checked) {
+                text += i;
+                }
+              }
+            }
+           return text;
+      }
+function CheckAllAnswers() {
+        let array_of_correct_answers = ['2', 'Драконов', '3', '2', '2', '1', '1', '3', '5', '4','3','2'];
+        var ball=0;
+        for (let i=1; i<=10; ++i )
+        {
+        let FormID = "Q"+i;
+        let Forma = CheckForm(FormID);
+        if (Forma== array_of_correct_answers[i-1])
+        {
+        ball++;
+       }
+     }
+        alert ("Правильных ответов:" +ball);
+    }
 </script>
 </head>
 
 <body>
-<div class="back">
 <h1>Тест по сериалу</h1>
 <h2>«Игра Престолов»</h2>
 <ol>       
-<li> На ком ездила Дейенерис Таргариен?
+<li>На ком ездила Дейенерис Таргариен?
 <br></br>
-<form id="a2">
-        <input type="radio" name="0" value="A"/>На слоне<br/>
-        <input type="radio" name="0" value="B"/>На драконе<br/>
-        <input type="radio" name="0" value="C"/>На верблюде<br/>
-        <input type="radio" name="0" value="D"/>На жуке-титане<br/>
+<form id="Q1">
+            <input type="radio" name="A1" value="Answer1">На слоне<br/>
+            <input type="radio" name="A1" value="Answer1">На драконе<br/>
+            <input type="radio" name="A1" value="Answer1">На верблюде<br/>
+            <input type="radio" name="A1" value="Answer1">На жуке-титане<br/>
 </form>
 </li>
 <br></br>
-<li> Одно из имен Дейенерис Таргариен-Матерь...
+<li>Одно из имен Дейенерис Таргариен-Матерь...
 <br></br>
-<form id="a">
-        <input type="text" name="0"><br>
+<form id="Q2">
+            <input type="text" name="q2" value="Answer2"><br/>
 </form>
 </li>
 <br></br>   
-<li> Как зовут лютоволка Джона Сноу?
+<li>Как зовут лютоволка Джона Сноу?
 <br></br>
-<form id="a3">
-        <input type="radio" name="2" value="E"/>Серый ветер<br/>
-        <input type="radio" name="2" value="F"/>Нимерия<br/>
-        <input type="radio" name="2" value="G"/>Призрак<br/>
-        <input type="radio" name="2" value="H"/>Лето<br/>
- </form>
-</li>
-<br></br>    
-<li> Коренные жители Вестероса?
-<br></br>
-<form id="a4">
-        <input type="radio" name="3" value="I"/>Железнорождённые<br/>
-        <input type="radio" name="3" value="J"/>Дети Леса<br/>
-        <input type="radio" name="3" value="K"/>Первые люди<br/>
-        <input type="radio" name="3" value="L"/>Андалы<br/>
+<form id="Q3">
+            <input type="checkbox" name="B3" value="Answer3">Серый ветер<br/>
+            <input type="checkbox" name="B3" value="Answer3">Нимерия<br/>
+            <input type="checkbox" name="B3" value="Answer3">Призрак<br/>
+            <input type="checkbox" name="B3" value="Answer3">Лето<br/>
 </form>
 </li>
 <br></br>    
-<li> Какое животное не водится в Вестеросе?
+<li>Коренные жители Вестероса?
 <br></br>
-<form id="a5">
-        <input type="radio" name="4" value="M"/>Белые вороны<br/>
-        <input type="radio" name="4" value="N"/>Василиски<br/>
-        <input type="radio" name="4" value="O"/>Мамонты<br/>
-        <input type="radio" name="4" value="P"/>Призрачные коты<br/>
- </form>
+<form id="Q4">
+            <input type="checkbox" name="C4" value="Answer4">Железнорождённые<br/>
+            <input type="checkbox" name="C4" value="Answer4">Дети леса<br/>
+            <input type="checkbox" name="C4" value="Answer4">Первые люди<br/>
+            <input type="checkbox" name="C4" value="Answer4">Андалы<br/>
+</form>
 </li>
 <br></br>    
-<li> В каком году выпущена первая книга «Игра Престолов»?
+<li>Какое животное не водится в Вестеросе?
 <br></br>
-<form id="a6">
-        <input type="radio" name="5" value="Q"/>1996<br/>
-        <input type="radio" name="5" value="R"/>2000<br/>
-        <input type="radio" name="5" value="S"/>1994<br/>
-        <input type="radio" name="5" value="T"/>1990<br/>
+<form id="Q5">
+            <input type="radio" name="D5" value="Answer5">Белые вороны<br/>
+            <input type="radio" name="D5" value="Answer5">Василиски<br/>
+            <input type="radio" name="D5" value="Answer5">Мамонты<br/>
+            <input type="radio" name="D5" value="Answer5">Призрачные коты<br/>
+</form>
+</li>
+<br></br>    
+<li>В каком году выпущена первая книга «Игра Престолов»?
+<br></br>
+<form id="Q6">
+        <input type="radio" name="E6" value="Answer6"/>1996<br/>
+        <input type="radio" name="E6" value="Answer6"/>2000<br/>
+        <input type="radio" name="E6" value="Answer6"/>1994<br/>
+        <input type="radio" name="E6" value="Answer6"/>1990<br/>
  </form>
 </li>
 <br></br> 
-<li> Как звали драконов Дейенерис Таргариен?
+<li>Как звали драконов Дейенерис Таргариен?
 <br></br>
-<form id="a7">
-        <input type="checkbox" name="6" value="U">Дрогон<br>
-        <input type="checkbox" name="6" value="V">Алдуин<br>
-        <input type="checkbox" name="6" value="W">Рейгаль<br>
-        <input type="checkbox" name="6" value="X">Нэрзул<br>
-        <input type="checkbox" name="6" value="Y">Визерион<br>
+<form id="Q7">
+        <input type="checkbox" name="F7" value="Answer7">Дрогон<br>
+        <input type="checkbox" name="F7" value="Answer7">Алдуин<br>
+        <input type="checkbox" name="F7" value="Answer7">Рейгаль<br>
+        <input type="checkbox" name="F7" value="Answer7">Нэрзул<br>
+        <input type="checkbox" name="F7" value="Answer7">Визерион<br>
 </form>
 </li>
 <br></br>
-<li> Как звали самого большого дракона из «Игры Престолов», в дыхании которого выковали Железный трон и чей череп находится в подвале Красного замка?
+<li>Как звали самого большого дракона из «Игры Престолов», в дыхании которого выковали Железный трон и чей череп находится в подвале Красного замка?
 <br></br>
-<form id="a8">
-        <input type="radio" name="7" value="Z"/>Смауг<br/>
-        <input type="radio" name="7" value="1"/>Дрогон<br/>
-        <input type="radio" name="7" value="2"/>Визерион<br/>
-        <input type="radio" name="7" value="3"/>Балерион<br/>
+<form id="Q8">
+        <input type="radio" name="G8" value="Answer8"/>Смауг<br/>
+        <input type="radio" name="G8" value="Answer8"/>Дрогон<br/>
+        <input type="radio" name="G8" value="Answer8"/>Визерион<br/>
+        <input type="radio" name="G8" value="Answer8"/>Балерион<br/>
  </form>
 </li>
 <br></br>    
 <li> Настоящее имя Джона Сноу?
 <br></br>
-<form id="a9">
-        <input type="radio" name="8" value="4"/>Эймон Таргариен<br/>
-        <input type="radio" name="8" value="5"/>Рейгаль Таргариен<br/>
-        <input type="radio" name="8" value="6"/>Эйгон Таргариен<br/>
+<form id="Q9">
+        <input type="radio" name="H9" value="Answer9"/>Эймон Таргариен<br/>
+        <input type="radio" name="H9" value="Answer9"/>Рейгаль Таргариен<br/>
+        <input type="radio" name="H9" value="Answer9"/>Эйгон Таргариен<br/>
  </form>
 </li>
 <br></br>  
 <li> Понравился тест?
 <br></br>
-<form id="a10">
-        <input type="radio" name="9" value="7" />Да<br/>
-        <input type="radio" name="9" value="8" />Да конечно<br/>
+<form id="Q10">
+        <input type="radio" name="I10" value="Answer10" />Да<br/>
+        <input type="radio" name="I10" value="Answer10" />Да конечно<br/>
 <br></br>
 </li>
 </ol>
-<input type="button" class="btn" value="Посмотреть результат" onclick="cout()">
-    <a  href="Тест.pdf"><h3>PDF файл</h3></a>
-</div>
-<div id="id01" class="modal">
-     <div class="container">
-     <p id="result"></p>
+<button class="btn" onclick="CheckAllAnswers()">Посмотреть результат</button>
+<a  href="Тест.pdf"><h3>PDF файл</h3></a>
 </div>
 </div> 
 <div style="text-align:center; padding:50px; font-size:50px; font-family:Game of Thrones KG">
