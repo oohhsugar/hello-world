@@ -7,34 +7,34 @@ body {
 }
 
 #game {
-	width: 150px;
-	height: 150px;
-	background: blue;
+	width:150px;
+	height:150px;
+	background:white;
 }
 
 #area {
-	background-color: #1e90ff;
-	display: flex;
-	flex-wrap: wrap;
+	background-color:#1e90ff;
+	display:flex;
+	flex-wrap:wrap;
 }
 
 .area-wrapper {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 td {   
-	width: 150px;
-	height: 150px;
-	border: 1px solid black;
-	box-sizing: border-box;
-	border-collapse: collapse;
-	color: brown;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	font-size: 30px;
+	width:150px;
+	height:150px;
+	border:1px solid black;
+	box-sizing:border-box;
+	border-collapse:collapse;
+	color:brown;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
 }
