@@ -14,6 +14,7 @@ body {
 
 #area {
 	background-color:#800080;
+	background:white;
 	display:flex;
 	flex-wrap:wrap;
 }
