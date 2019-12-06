@@ -13,7 +13,7 @@ body {
 }
 
 #area {
-	background-color:#1e90ff;
+	background-color:#800080;
 	display:flex;
 	flex-wrap:wrap;
 }
