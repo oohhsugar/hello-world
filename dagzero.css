@@ -1,22 +1,32 @@
-#game{
+body {
+    background-image:url(C1ark.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+#game {
 	width: 150px;
 	height: 150px;
 	background: blue;
 }
-#area{
+
+#area {
 	background-color: #1e90ff;
 	display: flex;
 	flex-wrap: wrap;
 }
-.area-wrapper{
+
+.area-wrapper {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-td
-{   
+
+td {   
 	width: 150px;
 	height: 150px;
 	border: 1px solid black;
